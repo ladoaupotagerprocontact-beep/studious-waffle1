@@ -1,0 +1,4 @@
+# Fichier ads.txt pour Google AdSense.
+# Une fois ton compte AdSense approuvé, remplace la ligne ci-dessous par celle
+# que Google te donne (identifiant « pub-... »), sans le # au début :
+# google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0

@@ -1,0 +1,56 @@
+SITE « MANIFESTER AU COLLÈGE OU AU LYCÉE » : MODE D'EMPLOI
+===========================================================
+
+CE QU'IL Y A DANS LE DOSSIER
+- index.html : la page principale (droits, actualités, numéros utiles)
+- a-propos.html, confidentialite.html, mentions-legales.html : pages obligatoires ou exigées par AdSense
+- 404.html : page d'erreur
+- style.css, favicon.svg : apparence et icône
+- robots.txt, sitemap.xml : pour les moteurs de recherche
+- ads.txt : fichier demandé par Google AdSense
+- .nojekyll : utile seulement si tu utilises GitHub Pages
+
+ÉTAPE 1. COMPLÉTER LES PAGES (obligatoire)
+Ouvre chaque fichier .html avec un éditeur de texte et cherche « À COMPLÉTER » (surligné en jaune sur la page).
+Il y en a dans : a-propos.html, confidentialite.html, mentions-legales.html.
+- Éditeur : ton nom, ou un pseudonyme si tu restes anonyme auprès du public (dans ce cas ton vrai nom et ton adresse doivent avoir été donnés à l'hébergeur).
+- Adresse e-mail de contact.
+- Hébergeur : nom, adresse, téléphone ou site (visibles dans ton compte chez l'hébergeur).
+- Date de mise à jour dans confidentialite.html.
+Supprime les crochets et le texte d'explication, garde ta réponse. Vérifie à la fin : plus aucun « À COMPLÉTER » ne doit rester.
+
+ÉTAPE 2. REMPLACER LE NOM DE DOMAINE
+Dans robots.txt et sitemap.xml, remplace VOTRE-DOMAINE.fr par ton vrai domaine (par exemple monsite.fr).
+
+ÉTAPE 3. FAIRE RELIRE LE CONTENU JURIDIQUE (fortement conseillé)
+Les fiches « Les droits en détail » sont des informations générales, écrites sans relecture par un juriste. Fais-les relire par un avocat, une association (par exemple la Ligue des droits de l'Homme) ou un enseignant en droit avant de promouvoir le site, surtout auprès de mineurs. Vérifie aussi les chiffres des actualités.
+
+ÉTAPE 4. METTRE EN LIGNE
+Le plus simple : un hébergeur de sites statiques gratuit.
+- Netlify : cherche « Netlify Drop », puis glisse-dépose tout le dossier. Tu obtiens une adresse en ligne tout de suite.
+- Cloudflare Pages ou GitHub Pages marchent aussi.
+Pour AdSense, il te faut ton propre nom de domaine (un achat d'environ 7 à 15 € par an chez OVHcloud, Gandi, etc.), à relier à ton hébergeur en suivant ses instructions.
+Important : mets TOUT le contenu du dossier à la racine du site (index.html doit être à la racine).
+
+ÉTAPE 5. PUBLICITÉ (Google AdSense)
+Conditions à connaître :
+- Le titulaire du compte AdSense doit avoir au moins 18 ans.
+- Il faut un nom de domaine à toi et un site déjà en ligne avec les pages Confidentialité et Mentions légales (c'est fait).
+- Google examine le site avant d'accepter. Attends-toi à un délai de quelques jours à quelques semaines, et à un possible refus si le contenu est jugé trop court ou sensible.
+- Une partie de ton public a moins de 13 ans. Lis la politique AdSense sur les contenus destinés aux enfants et regarde le réglage de traitement « destiné aux enfants » : il limite les annonces personnalisées et réduit les revenus.
+- Dans l'Espace économique européen, active le message de consentement de Google (dans AdSense, section « Confidentialité et messagerie », choisir le message pour le RGPD) : il est obligatoire pour afficher des annonces.
+Une fois accepté :
+1. Colle le script AdSense dans index.html à l'endroit marqué « Publicité » dans le <head>.
+2. Dans index.html, colle le code des annonces aux deux endroits marqués « Emplacement publicitaire possible ».
+3. Mets ta ligne « pub-... » dans ads.txt.
+Garde au plus deux annonces, bien séparées du contenu.
+
+ÉTAPE 6. LES ACTUALITÉS DU JOUR
+Dans la conversation avec Claude, écris « actus du jour » : il cherche les nouvelles et te prépare le nouveau index.html. Remplace l'ancien fichier chez ton hébergeur par le nouveau (avec Netlify, glisse-dépose à nouveau le dossier).
+
+LISTE DE CONTRÔLE AVANT PUBLICATION
+[ ] Plus de « À COMPLÉTER » dans les pages
+[ ] VOTRE-DOMAINE.fr remplacé
+[ ] Contenu juridique relu
+[ ] Site ouvert sur téléphone : les liens, la recherche et les numéros fonctionnent
+[ ] Pages Confidentialité et Mentions légales accessibles depuis le bas de chaque page

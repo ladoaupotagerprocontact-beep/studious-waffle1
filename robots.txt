@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Remplace VOTRE-DOMAINE.fr par ton vrai nom de domaine
+Sitemap: https://VOTRE-DOMAINE.fr/sitemap.xml
